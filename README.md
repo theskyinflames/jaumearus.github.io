@@ -1,2 +1,2 @@
-# jaumearus.dev
+# jaumearus.github.io
 my website
