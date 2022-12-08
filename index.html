@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jaume Arús</title>
+    <meta charset="UTF-8">
+    <title>My Page Title</title>
+    <meta name="description" content="This the Jaume Arús home page.">
+    <meta name="keywords" content="page, indexing, SEO">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="http://www.jaumearus.dev">
+    <style>
+        body {
+            font-size: 16px;
+        }
+
+        .split-screen {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            padding: 0.1em;
+        }
+
+        .split-screen>div {
+            flex: 1;
+        }
+
+        .left {
+            justify-content: space-between;
+            flex-direction: column;
+        }
+
+        .right {
+            background-image: url(images/bg.jpg);
+            background-size: 95% 98%;
+            background-position: top;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+
+        p {
+            font-size: 2em;
+            font-family: 'Sans-serif', Arial, Helvetica, sans-serif;
+            color: darkgray;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0%;
+            color: darkcyan;
+            font-family: 'Sans-serif', Arial, Helvetica, sans-serif;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            justify-items: left;
+        }
+
+        .section-item {
+            flex: 1;
+            padding: 1em;
+            padding-bottom: 0.5em;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .container {
+            display: flex;
+            justify-content: flex-start;
+            width: fit-content;
+        }
+
+        .item {
+            flex-grow: 1;
+            padding-top: 1em;
+            padding-left: 1em;
+        }
+
+        .slice-text {
+            white-space: nowrap;
+            /* prevent text from wrapping */
+            overflow: hidden;
+            /* hide overflowed text */
+            text-overflow: ellipsis;
+            /* show an ellipsis to indicate sliced text */
+        }
+    </style>
+
+<body>
+    <div class="split-screen">
+        <div class="left">
+            <section>
+                <div class="section-item">
+                    <!-- First section item content goes here -->
+                    <h1>About me</ha>
+                </div>
+                <div class="section-item">
+                    <!-- Second section item content goes here -->
+                    <p>I’m an SWE backend specialized, but with interest in all the actors that compounds the big
+                        picture of a tech system. I love clean code and testing, as well as good architectural patterns
+                        like hexagonal architecture, DDD, and Event-driven architecture. Passionate about anything
+                        related to technology, I enjoy learning and discovering new approaches to solving problems.</p>
+
+                    <p>In my free time, you’ll find me relishing a cup of coffee while reading some poems, or walking
+                        beside the sea. I also appreciate the silence.</p>
+                </div>
+                <div class="section-item">
+                    <h1>jaumearus@gmail.com</h1>
+                    <div class="container">
+                        <div class="item"><a href="https://github.com/theskyinflames"><img
+                                    src="images/github.png" /></a></div>
+                        <div class="item"><a href="https://www.linkedin.com/in/jaume-arus"><img
+                                    src="images/linkedin.png" /></a></div>
+                        <div class="item"><a href="https://t.me/TheSkyInFlames"><img src="images/telegram.png" /></a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+        <div class="right">
+
+        </div>
+    </div>
+</body>
+
+</html>
